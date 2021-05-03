@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         buttonAddItem.setOnClickListener {
             val intent = Intent (this, AddActivityItem::class.java)
             startActivityForResult(intent, 1)
+            //startActivity(intent)
         }
 
 
